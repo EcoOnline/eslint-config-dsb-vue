@@ -1,4 +1,4 @@
-# eslint-config-dsb-vue
+# eslint-config-ecoonline
 
 [![npm version](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue.svg)](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue)
 [![GitHub license](https://img.shields.io/npm/l/@dsb-norge/eslint-config-dsb-vue)](https://github.com/dsb-norge/eslint-config-dsb-vue/blob/master/LICENSE.md)
