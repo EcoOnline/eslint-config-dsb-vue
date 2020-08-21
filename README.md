@@ -1,7 +1,6 @@
 # eslint-config-ecoonline
 
-[![npm version](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue.svg)](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue)
-[![GitHub license](https://img.shields.io/npm/l/@dsb-norge/eslint-config-dsb-vue)](https://github.com/dsb-norge/eslint-config-dsb-vue/blob/master/LICENSE.md)
+[![GitHub license](https://img.shields.io/github/license/ecoonline/eslint-config-ecoonline)](https://github.com/ecoonline/eslint-config-ecoonline/blob/master/LICENSE.md)
 
 ## Installation
 
@@ -16,7 +15,7 @@ Install the package with:
 npx install-peerdeps --dev @dsb-norge/eslint-config-dsb-vue
 ```
 
-If using npm < 5:
+#### If using npm < 5:
 
 ```
 npm install -D @dsb-norge/eslint-config-dsb-vue

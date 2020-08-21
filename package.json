@@ -1,6 +1,6 @@
 {
-  "name": "@dsb-norge/eslint-config-dsb-vue",
-  "version": "1.0.2",
+  "name": "@ecoonline/eslint-config-ecoonline",
+  "version": "1.0.0",
   "description": "ESLint standard config for Vue.js projects",
   "keywords": [
     "eslint",
@@ -11,34 +11,34 @@
   "files": [
     "index.js"
   ],
-  "author": "Nils Lien <nils.lien@dsb.no>",
+  "author": "Nils Lien <nils-oyvind.lien@ecoonline.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:dsb-norge/eslint-config-dsb-vue.git"
+    "url": "git@github.com:ecoonline/eslint-config-ecoonline.git"
   },
   "bugs": {
-    "url": "https://github.com/dsb-norge/eslint-config-dsb-vue/issues"
+    "url": "https://github.com/ecoonline/eslint-config-ecoonline/issues"
   },
-  "homepage": "https://github.com/dsb-norge/eslint-config-dsb-vue",
+  "homepage": "https://github.com/ecoonline/eslint-config-ecoonline",
   "peerDependencies": {
-    "babel-eslint": ">=10.0.3 <11",
-    "eslint": ">=6.6.0 <7",
-    "eslint-config-standard": ">=14.1.0 <15",
-    "eslint-plugin-import": ">=2.18.2 <3",
-    "eslint-plugin-node": ">=10.0.0 <11",
+    "babel-eslint": ">=10.1.0 <11",
+    "eslint": ">=7.7.0 <8",
+    "eslint-config-standard": ">=14.1.1 <15",
+    "eslint-plugin-import": ">=2.22.0 <3",
+    "eslint-plugin-node": ">=11.1.0 <12",
     "eslint-plugin-promise": ">=4.2.1 <5",
     "eslint-plugin-standard": ">=4.0.1 <5",
-    "eslint-plugin-vue": ">=5.2.3 <6"
+    "eslint-plugin-vue": ">=6.2.2 <7"
   },
   "devDependencies": {
-    "babel-eslint": "10.0.3",
-    "eslint": "6.6.0",
-    "eslint-config-standard": "14.1.0",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-node": "10.0.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.7.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
-    "eslint-plugin-vue": "5.2.3"
+    "eslint-plugin-vue": "6.2.2"
   }
 }
