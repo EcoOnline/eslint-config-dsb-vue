@@ -12,20 +12,20 @@ Note: It requires some peerDependencies as well.
 Install the package with:
 
 ```sh
-npx install-peerdeps --dev @dsb-norge/eslint-config-dsb-vue
+npx install-peerdeps --dev @ecoonline/eslint-config-ecoonline
 ```
 
 #### If using npm < 5:
 
 ```
-npm install -D @dsb-norge/eslint-config-dsb-vue
+npm install -D @ecoonline/eslint-config-ecoonline
 ``` 
  
 Then install the correct versions of each peerDependency package, which are
 listed by the command:
 
 ```sh
-npm info "@dsb-norge/eslint-config-dsb-vue@latest" peerDependencies
+npm info "@ecoonline/eslint-config-ecoonline@latest" peerDependencies
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ Now add the config to either your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "@dsb-norge/dsb-vue"
+    "extends": "@ecoonline/eslint-config-ecoonline"
   }
 }
 ```
@@ -44,7 +44,7 @@ to your `.eslintrc`:
 
 ```json
 {
-  "extends": "@dsb-norge/dsb-vue"
+  "extends": "@ecoonline/eslint-config-ecoonline"
 }
 ```
 
@@ -52,7 +52,7 @@ or `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: '@dsb-norge/dsb-vue'
+  extends: '@ecoonline/eslint-config-ecoonline'
 }
 ```
 
