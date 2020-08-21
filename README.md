@@ -40,7 +40,7 @@ Now add the config to either your `package.json`:
 }
 ```
 
-to your `.eslintrc`:
+or to your `.eslintrc`:
 
 ```json
 {
@@ -48,7 +48,7 @@ to your `.eslintrc`:
 }
 ```
 
-or `.eslintrc.js`:
+or to your `.eslintrc.js`:
 
 ```js
 module.exports = {
