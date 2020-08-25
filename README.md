@@ -1,6 +1,7 @@
 # eslint-config-ecoonline
 
 [![GitHub license](https://img.shields.io/github/license/ecoonline/eslint-config-ecoonline)](https://github.com/ecoonline/eslint-config-ecoonline/blob/master/LICENSE.md)
+[![npm](https://img.shields.io/npm/v/@ecoonline/eslint-config-ecoonline)](https://www.npmjs.com/package/@ecoonline/eslint-config-ecoonline)
 
 ## Installation
 
