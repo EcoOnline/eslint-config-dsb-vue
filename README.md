@@ -60,9 +60,8 @@ module.exports = {
 
 This ESLint configuration comes with some fundamental assumptions:
 
-- vue.js and/or node environment
-- browser and/or node environment
-- parser: babel (used babel-eslint parser)
+- vue.js environment
+- browser environment
 
 Despite some assumptions, [you can easily overwrite, extend and unset
 rules and any other setting in your custom eslint config](https://eslint.org/docs/user-guide/configuring).

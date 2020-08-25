@@ -7,6 +7,9 @@
     "eslint-config",
     "eslintconfig"
   ],
+  "scripts": {
+    "lint": "eslint"
+  },
   "main": "index.js",
   "files": [
     "index.js"
@@ -22,7 +25,6 @@
   },
   "homepage": "https://github.com/ecoonline/eslint-config-ecoonline",
   "peerDependencies": {
-    "babel-eslint": ">=10.1.0 <11",
     "eslint": ">=7.7.0 <8",
     "eslint-config-standard": ">=14.1.1 <15",
     "eslint-plugin-import": ">=2.22.0 <3",
@@ -32,7 +34,6 @@
     "eslint-plugin-vue": ">=6.2.2 <7"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.7.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",

@@ -1,17 +1,21 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
     browser: true,
-    es6: true
+    es2020: true
   },
-  extends: ['plugin:vue/recommended', 'standard'],
-  plugins: ['vue'],
+  extends: [
+    'plugin:vue/recommended',
+    'standard'
+  ],
+  plugins: [
+    'vue'
+  ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'quotes': ['error', 'single', { 'avoidEscape': true }],
-    'semi': ['error', 'never'],
+    quotes: ['error', 'single', { avoidEscape: true }],
+    semi: ['error', 'never'],
     'vue/array-bracket-spacing': 'error',
     'vue/arrow-spacing': 'error',
     'vue/block-spacing': 'error',
@@ -27,6 +31,6 @@ module.exports = {
     'vue/v-on-function-call': 'error'
   },
   parserOptions: {
-    parser: "babel-eslint"
+    sourceType: 'module'
   }
-};
+}
