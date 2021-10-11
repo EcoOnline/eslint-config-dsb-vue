@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   env: {
+    node: true,
     browser: true,
     es2020: true
   },
@@ -12,8 +13,8 @@ module.exports = {
     'vue'
   ],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error'] }] : 'warn',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'never'],
     'vue/array-bracket-spacing': 'error',
@@ -21,7 +22,7 @@ module.exports = {
     'vue/block-spacing': 'error',
     'vue/brace-style': 'error',
     'vue/camelcase': 'error',
-    'vue/comma-dangle': ['error', 'always-multiline'],
+    'vue/comma-dangle': ['error', 'only-multiline'],
     'vue/component-name-in-template-casing': 'error',
     'vue/eqeqeq': 'error',
     'vue/key-spacing': 'error',
@@ -31,6 +32,7 @@ module.exports = {
     'vue/v-on-function-call': 'error'
   },
   parserOptions: {
+    parser: 'babel-eslint',
     sourceType: 'module'
   }
 }
